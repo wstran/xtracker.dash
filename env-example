@@ -1,0 +1,2 @@
+NEXTAUTH_SECRET=6190b6f49b537cff01ef439a578a6cbf
+MONGO_DB_URI=mongodb://127.0.0.1:27017/xtracker?retryWrites=true
