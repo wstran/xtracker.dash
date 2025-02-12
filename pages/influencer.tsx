@@ -1,5 +1,5 @@
 import { useSession } from "next-auth/react";
-import React, {useEffect, useMemo, useRef, useState} from "react";
+import {useEffect, useMemo, useRef, useState} from "react";
 import axios from "axios";
 import {DataTable, DataTableSortStatus} from "mantine-datatable";
 import {message, Modal} from 'antd';
