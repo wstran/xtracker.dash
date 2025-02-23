@@ -172,7 +172,7 @@ const Index = () => {
                                 </Row>
                                 <Flex vertical>
                                     <Col span={10}>
-                                        <Statistic title="RAM Used" value={crawler.os.used_men + " GB"} suffix={"/ " + crawler.os.total_men + "GB"} />
+                                        <Statistic title="RAM Used" value={crawler.os.used_men + " GB"} suffix={"/ " + crawler.os.total_men + " GB"} />
                                     </Col>
                                     <Progress percent={Math.floor(crawler.os.used_men / crawler.os.total_men * 100)} strokeColor={{ '0%': '#108ee9', '100%': '#87d068' }} />
                                 </Flex>
