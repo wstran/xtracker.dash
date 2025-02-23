@@ -152,7 +152,7 @@ const Index = () => {
                         {crawlers.length === 0 && <Empty image={Empty.PRESENTED_IMAGE_SIMPLE}/>}
                         {crawlers.map(([crawler_id, crawler], i) => (
                             <div className="panel space-y-4" key={i}>
-                                <label className="text-xl">Worker ID: {crawler_id}</label>
+                                <label className="text-xl">Crawler ID: {crawler_id}</label>
                                 <Row gutter={2}>
                                     <Col span={2}>
                                         <Statistic title="CPU" value={crawler.os.cpu_cores} />
