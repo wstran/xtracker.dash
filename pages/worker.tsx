@@ -124,27 +124,27 @@ const Index = () => {
                         <div className="flex space-x-4 justify-center">
                             <div className="flex flex-col items-center">
                                 <label>Deep Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.deep_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, deep_thread_workers: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.deep_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, deep_thread_workers: e || 0 }))} />
                             </div>
                             <div className="flex flex-col items-center">
                                 <label>5K Followers Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.main_thread_workers_5K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_5K: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.main_thread_workers_5K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_5K: e || 0 }))} />
                             </div>
                             <div className="flex flex-col items-center">
                                 <label>100K Followers Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.main_thread_workers_100K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_100K: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.main_thread_workers_100K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_100K: e || 0 }))} />
                             </div>
                             <div className="flex flex-col items-center">
                                 <label>500K Followers Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.main_thread_workers_500K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_500K: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.main_thread_workers_500K || 0} onChange={e => setCms(prev => ({ ...prev, main_thread_workers_500K: e || 0 }))} />
                             </div>
                             <div className="flex flex-col items-center">
                                 <label>Tags Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.tags_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, tags_thread_workers: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.tags_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, tags_thread_workers: e || 0 }))} />
                             </div>
                             <div className="flex flex-col items-center">
                                 <label>Scan Crawl Workers</label>
-                                <InputNumber size="large" className="w-[250px]" min={0} max={1000} value={cms?.scan_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, scan_thread_workers: e || 0 }))} />
+                                <InputNumber size="large" className="w-[200px]" min={0} max={1000} value={cms?.scan_thread_workers || 0} onChange={e => setCms(prev => ({ ...prev, scan_thread_workers: e || 0 }))} />
                             </div>
                         </div>
                     </div>
