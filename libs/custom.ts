@@ -12,3 +12,5 @@ export function roundDown(value: number | string, decimals: number, DOWN?: boole
   }
   return result;
 }
+
+export const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))

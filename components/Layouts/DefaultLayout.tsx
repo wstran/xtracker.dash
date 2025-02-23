@@ -23,7 +23,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
     const { isConnected, status, isDisconnected } = useAccount();
 
     useEffect(() => {
-        const validPaths = ['/', '/influencer'];
+        const validPaths = ['/', '/influencer', '/worker'];
 
         if (!validPaths.includes(router.pathname)) {
             router.push('/').catch(console.error);
