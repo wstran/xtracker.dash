@@ -178,6 +178,9 @@ const Index = () => {
                                 </Flex>
                                 <Row gutter={2}>
                                     <Col span={3}>
+                                        <Statistic title="Total Workers" value={crawler.total_workers} />
+                                    </Col>
+                                    <Col span={3}>
                                         <Statistic title="Deep Workers" value={crawler.deep_workers} />
                                     </Col>
                                     <Col span={3}>
